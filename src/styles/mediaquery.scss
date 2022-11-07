@@ -1,0 +1,276 @@
+@media screen and (max-width : 1367px) {
+    nav {
+        padding: 0 $p_md;
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_md;
+
+                >div aside {
+                    width: 85%;
+                }
+            }
+        }
+    }
+
+    #projects {
+        padding: 8rem $p_md;
+        height: 110vh;
+
+        >section {
+            >article {
+                height: 20rem;
+                width: 90%;
+            }
+
+            .project {
+                padding: 2rem;
+                height: 20rem;
+
+                >aside {
+                    >p {
+                        margin: 1rem;
+                    }
+
+                    >a {
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        >section>form {
+            >input>button {
+                font: 400 0.8rem $text1;
+                width: 50%;
+            }
+        }
+    }
+
+    footer {
+        padding-left: $p_md;
+    }
+}
+
+
+@media screen and (max-width : 1100px) {
+    nav {
+        padding: 0 $p_base;
+    }
+
+    #home {
+        height: 110vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_base;
+
+                >div {
+                    >h1 {
+                        font: 900 3rem $text1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 900px) {
+    nav {
+        padding: 0 $p_sm;
+
+        >h2 {
+            font-size: 1.8rem;
+        }
+
+        >div {
+            gap: 1rem;
+        }
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_sm;
+
+                >div {
+                    >div {
+                        gap: 2rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #projects {
+        padding: 8rem $p_zero;
+
+        >section {
+            >article {
+                height: 25rem;
+            }
+
+            .project {
+                height: 25rem;
+            }
+        }
+    }
+
+    #contact {
+        >section>form {
+            >h2 {
+                font: 100 2.3rem $text2;
+            }
+
+            >input>button {
+                width: 65%;
+            }
+        }
+    }
+
+    footer {
+        padding-left: $p_zero;
+        grid-template-columns: 1fr;
+
+        >div {
+            width: 100%;
+            border: none;
+
+            p {
+                width: 50%;
+                margin: 2rem auto;
+            }
+        }
+
+        >a {
+            margin: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width : 650px) {
+   
+
+   
+}
+
+
+@media screen and (max-width : 600px) {
+    nav {
+
+        >div,
+        >a {
+            display: none;
+        }
+    }
+    .navBtn {
+        display: block;
+    }
+    #home {
+        height: unset;
+        flex-direction: column-reverse;
+
+        >section {
+            &:first-of-type {
+                display: flex;
+                flex-direction: column;
+                align-items: centre;
+                text-align: center;
+
+                >div {
+                    border: none;
+                    padding-top: 3rem;
+
+                    >h1 {
+                        font: 900 2.5rem $text1;
+                    }
+
+                    >div {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+
+        >svg {
+            font: 1rem;
+            bottom: 10%;
+        }
+    }
+
+    #projects {
+        padding: 8rem $p_zero;
+
+        >section {
+            >article {
+                height: 25rem;
+            }
+
+            .project {
+                height: 25rem;
+
+                >aside {
+                    padding: 1rem;
+
+                    >h3 {
+                        margin: 1rem;
+                    }
+
+                    >p {
+                        letter-spacing: 0;
+                        line-height: unset;
+                        margin: 0%;
+                        font-size: 0.75rem;
+                    }
+
+                    >a {
+                        padding: 0.4rem 0.7rem;
+                        font-size: 0.7rem;
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #experience {
+        .experienceBox::after {
+            left: 26px;
+        }
+
+        .experienceItem {
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+        }
+
+        .rightSide {
+            left: 0%;
+        }
+
+        .leftSide,
+        .rightSide {
+            &::after {
+                left: 15px;
+            }
+        }
+    }
+
+    #contact {
+        grid-template-columns: 1fr;
+
+        >aside {
+            display: none;
+        }
+    }
+
+}
