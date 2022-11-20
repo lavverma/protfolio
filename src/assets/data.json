@@ -1,40 +1,60 @@
 {
-    "projects": [
-        {
-            "date": "07/10/2022",
-            "title": "TECHY STAR",
-            "description": "This is the sample description about the project details. The more details the more details and eventually more details because I don't have anything to write",
-            "url": "https://reactone-nine.vercel.app",
-            "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
-        },
-        {
-            "date": "11/10/2022",
-            "title": "VIDEO HUB",
-            "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-            "url": "https://react-video-app-eight.vercel.app",
-            "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
-          },
-          {
-            "date": "15/10/2022",
-            "title": "XCrypto",
-            "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-            "url": "https://react-crypto-app-pi.vercel.app",
-            "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-          },
-      
-          {
-            "date": "17/10/2022",
-            "title": "REACT CART",
-            "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-            "url": "https://react-cart-eosin.vercel.app",
-            "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
-          },
-          {
-            "date": "20/10/2022",
-            "title": "PORTFOLIO",
-            "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-            "url": "/",
-            "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
-          }
-    ]
+  "projects": [
+    {
+      "date": "10/2022",
+      "title": "Chat App",
+      "description": "This project is based on a real-time chat app.It was developed using Socket.io, using React for creating the front and using Nodejs for the backend of the application, for the styling and responsiveness used Bootstrap5 and CSS.",
+      "url": "https://chatapp-8u2u.onrender.com/",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaGAt3YaX30YHAgPSFmrO0Kw5T2BDfX3Z4Cw&usqp=CAU"
+    },
+    {
+      "date": "10/2022",
+      "title": "Payment application ",
+      "description": "This project is based on accept payment using razorpay integration",
+      "url": "https://payment-2vcq.onrender.com",
+      "imgSrc": "https://miro.medium.com/max/720/1*mhiqJIyiC9xJ0yUEj2r-Ug.webp"
+    },
+    {
+      "date": "09/2022",
+      "title": "Product Management",
+      "description": "The basic idea of this project that working of backend development of E-commerce website like amazon and flipkart.In this project need to store and manage four collections in database i.e. Users,Products,Carts and Orders. Here database has used for storing the data is mongodb-atlas .",
+      "url": "https://github.com/lavverma/product_management/tree/project/productsManagementGroup13",
+      "imgSrc": "https://th.bing.com/th/id/OIP.DQnHtjk8zrNwPXmWKTehYAHaD9?w=336&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "date": "09/2022",
+      "title": "URL Shorten",
+      "description": "This shortened url use because easy to share,error free,readable and take less space to share with messaging platforms...just like real life example Tinyurl, Bitly etc.As the backend of this site need create the schema(structure) of document of data.",
+      "url": "https://github.com/lavverma/url_shortner/tree/project/urlShortnerGroup23",
+      "imgSrc": "https://th.bing.com/th/id/OIP.klq-qUeJm_ceHwStmyj9TgHaE1?w=240&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "date": "08/2022",
+      "title": "Book management",
+      "description": "The website where read the book and can give the review of a particular book. just like real life example:kindle-books. As a developer(backend) of this site i need to store the collection of of users, books that added by them as well as reviewers data of a particular book in DataBase",
+      "url": "https://react-crypto-app-pi.vercel.app",
+      "imgSrc": "https://th.bing.com/th/id/OIP.c7OAIqdG2TmzsOwDB-eGJQHaDy?w=299&h=178&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "date": "08/2022",
+      "title": "Open-to-Intern",
+      "description": "This project is there are colleges where some of interns applied for internships for that colleges so we have store the complete data all of those and want the college details to this give details of college along with all the interns who was applied for that particular college.",
+      "url": "https://github.com/lavverma/intern_college/tree/project/internshipGroup33",
+      "imgSrc": "https://th.bing.com/th/id/OIP.GsTXFhVDjLCZYmRgetmAoAHaE1?pid=ImgDet&rs=1"
+    },
+    {
+      "date": "11/2022",
+      "title": "PORTFOLIO",
+      "description": "This project is the representation of Lav verma's work, project and Tech skills",
+      "url": "/",
+      "imgSrc": "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk-620x410.jpg"
+    },
+    {
+      "date": "08/2022",
+      "title": "Blog Project",
+      "description": "This project is based on blogging site, how the complete data get to be create,organize and update in DB.On depends on query of client side send to server to perform CRUD operation and give better understanding and information regarding working environment of backend of a blogging site like Quora.",
+      "url": "https://github.com/lavverma/blogProject/tree/Blog-Project",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJNtbYRT31MmxbAafxdGQBMXOROP1XPOHsA&usqp=CAU"
+    }
+  ]
 }

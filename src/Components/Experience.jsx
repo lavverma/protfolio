@@ -1,35 +1,71 @@
 import React from 'react'
-import data from "../assets/data.json"
+// import data from "../assets/data.json"
+
+// const Experience = () => {
+//     return (
+//         <div id="experience">
+//             <div className="experienceBox">
+//                 {data.projects.map((item, index) => (
+//                     <ExperienceItem
+//                         heading={item.title}
+//                         text={item.date}
+//                         index={index}
+//                         key={item.title}
+//                     />
+//                 ))}
+//             </div>
+//         </div>
+//     );
+// };
+
+
+
+// const ExperienceItem = ({ heading, text, index }) => {
+//     return (
+//         <div className={`experienceItem ${index % 2 === 0 ? "leftSide" : "rightSide"
+//             }`}>
+//             <div>
+//                 <h2>{heading}</h2>
+//                 <p>{text}</p>
+//             </div>
+//         </div>
+//     )
+// }
 
 const Experience = () => {
     return (
         <div id="experience">
-            <div className="experienceBox">
-                {data.projects.map((item, index) => (
-                    <ExperienceItem
-                        heading={item.title}
-                        text={item.date}
-                        index={index}
-                        key={item.title}
-                    />
-                ))}
+            <h2>EXPERIENCE</h2>
+            <div className='function'>
+            <h3>Functionup</h3>
+            <div className='exp'>
+                <h3>Backend Developer Trainee</h3>
+                <div>May 2022 - Present</div>
             </div>
-        </div>
-    );
-};
-
-
-
-const ExperienceItem = ({ heading, text, index }) => {
-    return (
-        <div className={`experienceItem ${index % 2 === 0 ? "leftSide" : "rightSide"
-            }`}>
-            <div>
-                <h2>{heading}</h2>
-                <p>{text}</p>
+            <ul>
+                <li>Learned about core backend technology (NodeJS) and fundamentals of frontend technologies (ReactJS, Html, CSS)</li>
+                <li>Built and implementation of 5 major industry grad-level backend projects</li>
+                <li>Solved 200+ data structure and algorithm problems (DSA) on Leetcode and codezinger (combined)</li>
+                <li>Participating in the weekly hackathon and extra circular activities</li>
+            </ul>
+            
             </div>
+            <div className='function'>
+            <h3>Hindustan Aeronautics Limited (HAL) accessories Division, Lucknow</h3>
+            <div className='exp'>
+                <h3>Intern</h3>
+                <div>june 2019 - july 2019</div>
+            </div>
+            <ul>
+                <li>Gained exposure and practical experience in industries and familiar with the workplace and job</li>
+                <li>Obtained knowledge closely with Automobile to reorganize demand to increase productivity and revenue for the company</li>
+            </ul>
+            
+            </div>
+            
         </div>
     )
 }
+
 
 export default Experience

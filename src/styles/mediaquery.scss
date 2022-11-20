@@ -59,112 +59,108 @@
 }
 
 
-@media screen and (max-width : 1100px) {
-    nav {
-        padding: 0 $p_base;
-    }
+// @media screen and (max-width : 1100px) {
+//     nav {
+//         padding: 0 $p_base;
+//     }
 
-    #home {
-        height: 110vh;
+//     #home {
+//         height: 110vh;
 
-        >section {
-            &:first-of-type {
-                padding-left: $p_base;
+//         >section {
+//             &:first-of-type {
+//                 padding-left: $p_base;
 
-                >div {
-                    >h1 {
-                        font: 900 3rem $text1;
-                    }
-                }
-            }
-        }
-    }
-}
+//                 >div {
+//                     >h1 {
+//                         font: 900 3rem $text1;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
-@media screen and (max-width : 900px) {
-    nav {
-        padding: 0 $p_sm;
+// @media screen and (max-width : 900px) {
+//     nav {
+//         padding: 0 $p_sm;
 
-        >h2 {
-            font-size: 1.8rem;
-        }
+//         >h2 {
+//             font-size: 1.8rem;
+//         }
 
-        >div {
-            gap: 1rem;
-        }
-    }
+//         >div {
+//             gap: 1rem;
+//         }
+//     }
 
-    #home {
-        height: 100vh;
+//     #home {
+//         height: 100vh;
 
-        >section {
-            &:first-of-type {
-                padding-left: $p_sm;
+//         >section {
+//             &:first-of-type {
+//                 padding-left: $p_sm;
 
-                >div {
-                    >div {
-                        gap: 2rem;
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
+//                 >div {
+//                     >div {
+//                         gap: 2rem;
+//                         width: 100%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
 
-    #projects {
-        padding: 8rem $p_zero;
+//     #projects {
+//         padding: 8rem $p_zero;
 
-        >section {
-            >article {
-                height: 25rem;
-            }
+//         >section {
+//             >article {
+//                 height: 25rem;
+//             }
 
-            .project {
-                height: 25rem;
-            }
-        }
-    }
+//             .project {
+//                 height: 25rem;
+//             }
+//         }
+//     }
 
-    #contact {
-        >section>form {
-            >h2 {
-                font: 100 2.3rem $text2;
-            }
+//     #contact {
+//         >section>form {
+//             >h2 {
+//                 font: 100 2.3rem $text2;
+//             }
 
-            >input>button {
-                width: 65%;
-            }
-        }
-    }
+//             >input>button {
+//                 width: 65%;
+//             }
+//         }
+//     }
 
-    footer {
-        padding-left: $p_zero;
-        grid-template-columns: 1fr;
+//     footer {
+//         padding-left: $p_zero;
+//         grid-template-columns: 1fr;
 
-        >div {
-            width: 100%;
-            border: none;
+//         >div {
+//             width: 100%;
+//             border: none;
 
-            p {
-                width: 50%;
-                margin: 2rem auto;
-            }
-        }
+//             p {
+//                 width: 50%;
+//                 margin: 2rem auto;
+//             }
+//         }
 
-        >a {
-            margin: 1rem;
-        }
-    }
-}
-
-@media screen and (max-width : 650px) {
-   
-
-   
-}
+//         >a {
+//             margin: 1rem;
+//         }
+//     }
+// }
 
 
-@media screen and (max-width : 600px) {
+
+
+@media screen and (max-width : 1350px) {
     nav {
 
         >div,
@@ -203,7 +199,7 @@
 
         >svg {
             font: 1rem;
-            bottom: 10%;
+            bottom: 15%;
         }
     }
 
@@ -238,29 +234,6 @@
                         margin: 1rem;
                     }
                 }
-            }
-        }
-    }
-
-    #experience {
-        .experienceBox::after {
-            left: 26px;
-        }
-
-        .experienceItem {
-            width: 100%;
-            padding-left: 5rem;
-            padding-right: 2rem;
-        }
-
-        .rightSide {
-            left: 0%;
-        }
-
-        .leftSide,
-        .rightSide {
-            &::after {
-                left: 15px;
             }
         }
     }

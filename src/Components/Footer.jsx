@@ -16,7 +16,7 @@ const Footer = () => {
             />
 
             <h2>Lav verma</h2>
-            <p><i>If want shine like a sun, first burn like a sun.</i></p>
+            <p><i>If want shine like a sun, first burn like a sun <b>- Dr. A. P. J. Abdul Kalam</b></i></p>
         </div>
 
         <aside>

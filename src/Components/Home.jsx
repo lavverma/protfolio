@@ -35,12 +35,14 @@ const Home = () => {
                         Hi... I am <br /> Lav verma
                     </motion.h1>
                     <Typewriter options={{
-                        strings: ["A Nodejs Developer", "A Creator"],
+                        strings: ["A Developer"],
+                        cursor : "",
                         autoStart: true,
                         loop: true,
                         wrapperClassName: "typewriterContent"
                     }}
                     />
+                    <h4>Committed and goal-oriented Backend developer looking to pursue a career in software engineering. Possess excellent knowledge in HTML, CSS, ECMAScript, JavaScript, NodeJS. ExpressJS, MongoDB, and integration with intuitive problem-solving skills. Passionate about implementing and launching new projects. Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.</h4>
 
                     <div>
                         <a href="mailto:lavverma109@gmail.com"> Hire Me</a>

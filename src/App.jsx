@@ -10,7 +10,6 @@ import { useState } from "react"
 
 function App () {
    const [menu , setMenu] = useState(false)
-   console.log(menu)
   return (
    <>
       <Menu menu={menu} setMenu={setMenu}/>

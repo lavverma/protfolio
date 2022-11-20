@@ -25,7 +25,7 @@ const Projects = () => {
                                     <h3>{i.title}</h3>
                                     <p>{i.description}</p>
                                     <a target={"blank"} href={i.url}>
-                                        View Demo
+                                        Project Link
                                     </a>
                                 </aside>
                             </div>
