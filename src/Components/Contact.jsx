@@ -45,24 +45,6 @@ const Contact = () => {
                             <AiOutlineMail /> <h4>lavverma109@gmail.com</h4>
                         </a>
                     </article>
-                    {/* <input
-                        type="text"
-                        placeholder="Write Your Name"
-                        required
-                        value={name}
-                        onChange={(e) => setName(e.target.value)} />
-                    <input
-                        type="email"
-                        placeholder="Write Your Email"
-                        required
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)} />
-                    <input
-                        type="text"
-                        placeholder="Write Your Message"
-                        required value={text}
-                        onChange={(e) => setText(e.target.value)} />
-                    <motion.button {...animation.button} type="submit">Send</motion.button> */}
                 </motion.div>
             </section>
             <aside>

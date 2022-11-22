@@ -14,7 +14,6 @@ import git from "../assets/skillsLogo/git.png"
 import gitHub from "../assets/skillsLogo/gitHub.png"
 import postman from "../assets/skillsLogo/postman.png"
 
-// import bootstrap from "../assets/skillsLogo/bootstrap.png"
 
 
 const Skills = () => {
@@ -32,8 +31,6 @@ const Skills = () => {
         <img src={html} />
         <img src={css} />
         <img src={react} />
-        {/* <img src={sass} />
-        <img src={bootstrap} /> */}
         <img src={aws} />
         <img src={redis} />
         <img src={postman} />
