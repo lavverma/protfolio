@@ -18,14 +18,14 @@
       "date": "09/2022",
       "title": "Product Management",
       "description": "The basic idea of this project that working of backend development of E-commerce website like amazon and flipkart.In this project need to store and manage four collections in database i.e. Users,Products,Carts and Orders. Here database has used for storing the data is mongodb-atlas .",
-      "url": "https://github.com/lavverma/product_management/tree/project/productsManagementGroup13",
+      "url": "https://github.com/lavverma/productManagement.git",
       "imgSrc": "https://th.bing.com/th/id/OIP.DQnHtjk8zrNwPXmWKTehYAHaD9?w=336&h=180&c=7&r=0&o=5&pid=1.7"
     },
     {
       "date": "09/2022",
       "title": "URL Shorten",
       "description": "This shortened url use because easy to share,error free,readable and take less space to share with messaging platforms...just like real life example Tinyurl, Bitly etc.As the backend of this site need create the schema(structure) of document of data.",
-      "url": "https://github.com/lavverma/url_shortner/tree/project/urlShortnerGroup23",
+      "url": "https://urlshortnerclient.onrender.com",
       "imgSrc": "https://th.bing.com/th/id/OIP.klq-qUeJm_ceHwStmyj9TgHaE1?w=240&h=180&c=7&r=0&o=5&pid=1.7"
     },
     {
@@ -39,7 +39,7 @@
       "date": "08/2022",
       "title": "Open-to-Intern",
       "description": "This project is there are colleges where some of interns applied for internships for that colleges so we have store the complete data all of those and want the college details to this give details of college along with all the interns who was applied for that particular college.",
-      "url": "https://github.com/lavverma/intern_college/tree/project/internshipGroup33",
+      "url": "https://github.com/lavverma/intern_college.git",
       "imgSrc": "https://th.bing.com/th/id/OIP.GsTXFhVDjLCZYmRgetmAoAHaE1?pid=ImgDet&rs=1"
     },
     {
@@ -53,7 +53,7 @@
       "date": "08/2022",
       "title": "Blog Project",
       "description": "This project is based on blogging site, how the complete data get to be create,organize and update in DB.On depends on query of client side send to server to perform CRUD operation and give better understanding and information regarding working environment of backend of a blogging site like Quora.",
-      "url": "https://github.com/lavverma/blogProject/tree/Blog-Project",
+      "url": "https://github.com/lavverma/blog_project.git",
       "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJNtbYRT31MmxbAafxdGQBMXOROP1XPOHsA&usqp=CAU"
     }
   ]
